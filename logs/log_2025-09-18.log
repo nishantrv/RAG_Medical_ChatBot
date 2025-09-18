@@ -1,0 +1,188 @@
+2025-09-18 20:20:54,771 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.90:5000
+2025-09-18 20:20:54,771 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 20:22:02,936 - INFO - 127.0.0.1 - - [18/Sep/2025 20:22:02] "GET / HTTP/1.1" 200 -
+2025-09-18 20:22:04,092 - INFO - 127.0.0.1 - - [18/Sep/2025 20:22:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-18 20:22:09,752 - INFO - Loading vector store for context
+2025-09-18 20:22:09,752 - INFO - Initializing our Huggingface embedding model
+2025-09-18 20:22:12,612 - INFO - Use pytorch device_name: cpu
+2025-09-18 20:22:12,613 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-18 20:22:14,683 - INFO - Huggingface embedding model loaded successfully...
+2025-09-18 20:22:14,683 - INFO - Loading existing vectorstore...
+2025-09-18 20:22:14,685 - INFO - Loading faiss with AVX2 support.
+2025-09-18 20:22:14,703 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-18 20:22:14,855 - INFO - Loading LLM from HuggingFace
+2025-09-18 20:22:14,856 - WARNING - WARNING! max_length is not default parameter.
+                    max_length was transferred to model_kwargs.
+                    Please make sure that max_length is what you intended.
+2025-09-18 20:22:15,097 - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-09-18 20:22:15,219 - INFO - LLM Loaded Succesfully.....
+2025-09-18 20:22:15,220 - INFO - Successfully created the QA chain
+2025-09-18 20:22:15,250 - INFO - 127.0.0.1 - - [18/Sep/2025 20:22:15] "POST / HTTP/1.1" 200 -
+2025-09-18 21:11:25,848 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.90:5000
+2025-09-18 21:11:25,848 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 21:11:37,786 - INFO - 192.168.148.90 - - [18/Sep/2025 21:11:37] "GET / HTTP/1.1" 200 -
+2025-09-18 21:11:38,556 - INFO - 192.168.148.90 - - [18/Sep/2025 21:11:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-18 21:11:44,108 - INFO - Loading vector store for context
+2025-09-18 21:11:44,108 - INFO - Initializing our Huggingface embedding model
+2025-09-18 21:11:46,411 - INFO - Use pytorch device_name: cpu
+2025-09-18 21:11:46,412 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-18 21:11:48,526 - INFO - Huggingface embedding model loaded successfully...
+2025-09-18 21:11:48,526 - INFO - Loading existing vectorstore...
+2025-09-18 21:11:48,528 - INFO - Loading faiss with AVX2 support.
+2025-09-18 21:11:48,547 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-18 21:11:48,700 - INFO - Loading LLM from HuggingFace
+2025-09-18 21:11:48,700 - WARNING - WARNING! max_length is not default parameter.
+                    max_length was transferred to model_kwargs.
+                    Please make sure that max_length is what you intended.
+2025-09-18 21:11:48,807 - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-09-18 21:11:48,922 - INFO - LLM Loaded Succesfully.....
+2025-09-18 21:11:48,923 - INFO - Successfully created the QA chain
+2025-09-18 21:11:48,952 - INFO - 192.168.148.90 - - [18/Sep/2025 21:11:48] "POST / HTTP/1.1" 200 -
+2025-09-18 21:18:24,337 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.90:5000
+2025-09-18 21:18:24,337 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 21:18:37,517 - INFO - 127.0.0.1 - - [18/Sep/2025 21:18:37] "GET / HTTP/1.1" 200 -
+2025-09-18 21:18:38,597 - INFO - 127.0.0.1 - - [18/Sep/2025 21:18:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-18 21:18:43,422 - INFO - Loading vector store for context
+2025-09-18 21:18:43,422 - INFO - Initializing our Huggingface embedding model
+2025-09-18 21:18:45,747 - INFO - Use pytorch device_name: cpu
+2025-09-18 21:18:45,747 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-18 21:18:47,928 - INFO - Huggingface embedding model loaded successfully...
+2025-09-18 21:18:47,928 - INFO - Loading existing vectorstore...
+2025-09-18 21:18:47,932 - INFO - Loading faiss with AVX2 support.
+2025-09-18 21:18:47,950 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-18 21:18:48,096 - INFO - Loading LLM from HuggingFace
+2025-09-18 21:18:48,097 - WARNING - WARNING! max_length is not default parameter.
+                    max_length was transferred to model_kwargs.
+                    Please make sure that max_length is what you intended.
+2025-09-18 21:18:48,211 - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-09-18 21:18:48,316 - INFO - LLM Loaded Succesfully.....
+2025-09-18 21:18:48,316 - INFO - Successfully created the QA chain
+2025-09-18 21:18:48,344 - INFO - 127.0.0.1 - - [18/Sep/2025 21:18:48] "POST / HTTP/1.1" 200 -
+2025-09-18 21:20:31,264 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.90:5000
+2025-09-18 21:20:31,265 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 21:20:43,270 - INFO - 192.168.148.90 - - [18/Sep/2025 21:20:43] "GET / HTTP/1.1" 200 -
+2025-09-18 21:20:44,124 - INFO - 192.168.148.90 - - [18/Sep/2025 21:20:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-18 21:20:51,552 - INFO - 192.168.148.90 - - [18/Sep/2025 21:20:51] "GET / HTTP/1.1" 200 -
+2025-09-18 21:21:00,482 - INFO - Loading vector store for context
+2025-09-18 21:21:00,482 - INFO - Initializing our Huggingface embedding model
+2025-09-18 21:21:02,934 - INFO - Use pytorch device_name: cpu
+2025-09-18 21:21:02,934 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-18 21:21:05,110 - INFO - Huggingface embedding model loaded successfully...
+2025-09-18 21:21:05,110 - INFO - Loading existing vectorstore...
+2025-09-18 21:21:05,113 - INFO - Loading faiss with AVX2 support.
+2025-09-18 21:21:05,228 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-18 21:21:05,275 - INFO - Loading LLM from HuggingFace
+2025-09-18 21:21:05,276 - WARNING - WARNING! max_length is not default parameter.
+                    max_length was transferred to model_kwargs.
+                    Please make sure that max_length is what you intended.
+2025-09-18 21:21:05,375 - INFO - LLM Loaded Succesfully.....
+2025-09-18 21:21:05,376 - INFO - Successfully created the QA chain
+2025-09-18 21:21:05,401 - INFO - 192.168.148.90 - - [18/Sep/2025 21:21:05] "POST / HTTP/1.1" 200 -
+2025-09-18 21:21:42,975 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.90:5000
+2025-09-18 21:21:42,975 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 21:21:59,155 - INFO - 127.0.0.1 - - [18/Sep/2025 21:21:59] "GET / HTTP/1.1" 200 -
+2025-09-18 21:22:05,139 - INFO - Loading vector store for context
+2025-09-18 21:22:05,139 - INFO - Initializing our Huggingface embedding model
+2025-09-18 21:22:07,627 - INFO - Use pytorch device_name: cpu
+2025-09-18 21:22:07,627 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-18 21:22:09,884 - INFO - Huggingface embedding model loaded successfully...
+2025-09-18 21:22:09,885 - INFO - Loading existing vectorstore...
+2025-09-18 21:22:09,887 - INFO - Loading faiss with AVX2 support.
+2025-09-18 21:22:10,008 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-18 21:22:10,055 - INFO - Loading LLM from HuggingFace
+2025-09-18 21:22:10,056 - WARNING - WARNING! max_new_length is not default parameter.
+                    max_new_length was transferred to model_kwargs.
+                    Please make sure that max_new_length is what you intended.
+2025-09-18 21:22:10,162 - INFO - LLM Loaded Succesfully.....
+2025-09-18 21:22:10,162 - INFO - Successfully created the QA chain
+2025-09-18 21:22:10,189 - INFO - 127.0.0.1 - - [18/Sep/2025 21:22:10] "POST / HTTP/1.1" 200 -
+2025-09-18 21:23:22,966 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.90:5000
+2025-09-18 21:23:22,966 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 21:23:28,254 - INFO - 127.0.0.1 - - [18/Sep/2025 21:23:28] "GET / HTTP/1.1" 200 -
+2025-09-18 21:23:36,081 - INFO - 192.168.148.90 - - [18/Sep/2025 21:23:36] "GET / HTTP/1.1" 200 -
+2025-09-18 21:23:43,055 - INFO - Loading vector store for context
+2025-09-18 21:23:43,055 - INFO - Initializing our Huggingface embedding model
+2025-09-18 21:23:45,456 - INFO - Use pytorch device_name: cpu
+2025-09-18 21:23:45,456 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-18 21:23:47,504 - INFO - Huggingface embedding model loaded successfully...
+2025-09-18 21:23:47,504 - INFO - Loading existing vectorstore...
+2025-09-18 21:23:47,507 - INFO - Loading faiss with AVX2 support.
+2025-09-18 21:23:47,625 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-18 21:23:47,670 - INFO - Loading LLM from HuggingFace
+2025-09-18 21:23:47,771 - INFO - LLM Loaded Succesfully.....
+2025-09-18 21:23:47,772 - INFO - Successfully created the QA chain
+2025-09-18 21:23:47,902 - INFO - 192.168.148.90 - - [18/Sep/2025 21:23:47] "POST / HTTP/1.1" 200 -
+2025-09-18 21:29:02,156 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.90:5000
+2025-09-18 21:29:02,157 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 21:29:11,465 - INFO - 127.0.0.1 - - [18/Sep/2025 21:29:11] "GET / HTTP/1.1" 200 -
+2025-09-18 21:29:17,921 - INFO - Loading vector store for context
+2025-09-18 21:29:17,921 - INFO - Initializing our Huggingface embedding model
+2025-09-18 21:29:20,462 - INFO - Use pytorch device_name: cpu
+2025-09-18 21:29:20,462 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-18 21:29:22,597 - INFO - Huggingface embedding model loaded successfully...
+2025-09-18 21:29:22,597 - INFO - Loading existing vectorstore...
+2025-09-18 21:29:22,597 - INFO - Loading faiss with AVX2 support.
+2025-09-18 21:29:22,729 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-18 21:29:22,783 - INFO - Loading LLM from HuggingFace
+2025-09-18 21:29:22,887 - INFO - LLM Loaded Succesfully.....
+2025-09-18 21:29:22,887 - INFO - Successfully created the QA chain
+2025-09-18 21:29:23,023 - INFO - 127.0.0.1 - - [18/Sep/2025 21:29:23] "POST / HTTP/1.1" 200 -
+2025-09-18 21:30:40,660 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.90:5000
+2025-09-18 21:30:40,661 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 21:30:47,631 - INFO - 127.0.0.1 - - [18/Sep/2025 21:30:47] "GET / HTTP/1.1" 200 -
+2025-09-18 21:30:52,938 - INFO - Loading vector store for context
+2025-09-18 21:30:52,938 - INFO - Initializing our Huggingface embedding model
+2025-09-18 21:30:55,493 - INFO - Use pytorch device_name: cpu
+2025-09-18 21:30:55,493 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-18 21:30:57,512 - INFO - Huggingface embedding model loaded successfully...
+2025-09-18 21:30:57,512 - INFO - Loading existing vectorstore...
+2025-09-18 21:30:57,512 - INFO - Loading faiss with AVX2 support.
+2025-09-18 21:30:57,645 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-18 21:30:57,695 - INFO - Loading LLM from HuggingFace
+2025-09-18 21:30:57,805 - INFO - LLM Loaded Succesfully.....
+2025-09-18 21:30:57,805 - INFO - Successfully created the QA chain
+2025-09-18 21:30:57,931 - INFO - 127.0.0.1 - - [18/Sep/2025 21:30:57] "POST / HTTP/1.1" 200 -
+2025-09-18 21:37:22,059 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.148.90:5000
+2025-09-18 21:37:22,059 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 21:37:30,316 - INFO - 192.168.148.90 - - [18/Sep/2025 21:37:30] "GET / HTTP/1.1" 200 -
+2025-09-18 21:37:35,794 - INFO - Loading vector store for context
+2025-09-18 21:37:35,794 - INFO - Intializing our Huggingface embedding model
+2025-09-18 21:37:38,232 - INFO - Use pytorch device_name: cpu
+2025-09-18 21:37:38,232 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-18 21:37:40,214 - INFO - Huggingface embedding model loaded sucesfully....
+2025-09-18 21:37:40,214 - INFO - Loading existing vectorstore...
+2025-09-18 21:37:40,214 - INFO - Loading faiss with AVX2 support.
+2025-09-18 21:37:40,337 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-18 21:37:40,378 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-09-18 21:37:41,208 - INFO - LLM loaded successfully from Groq.
+2025-09-18 21:37:41,208 - INFO - Successfully created the QA chain
+2025-09-18 21:37:41,639 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 21:37:41,644 - INFO - 192.168.148.90 - - [18/Sep/2025 21:37:41] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-18 21:37:41,659 - INFO - 192.168.148.90 - - [18/Sep/2025 21:37:41] "GET / HTTP/1.1" 200 -
